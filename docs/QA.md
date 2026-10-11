@@ -12,14 +12,20 @@
 - Real architecture photography, documented company project photography, clean local SVG branding. Hero resized/compressed; all site imagery is local, with no base64 or third-party font/runtime requests.
 - Existing static Netlify architecture retained. No build or runtime dependencies added.
 
-## Live checks still required
+## Live preview validation
 
-The existing Netlify site is `reef-solutions` (`69c17f33-569e-474e-b979-2e23247f7af9`). Git integration was confirmed on 11 October 2026: production deploy `6acbbbb44b7e81b348c0fe81` references the unchanged baseline commit `29b718b9ffd101470091cbfd9c7b056975915139` on `main`. PR #1 is ready for review; its redesign branch remains unmerged. Deploy Preview generation and live validation are being checked separately.
+- Preview: https://deploy-preview-1--reef-solutions.netlify.app
+- Verified deploy `6acbc3c2c3af3500080c3c2d`, commit `276f903e464c6bdaa1f015c017465c0a09950f46`, context `deploy-preview`, PR #1.
+- Git integration confirmed. Production remains baseline commit `29b718b9ffd101470091cbfd9c7b056975915139` on `main`; the redesign is unmerged.
+- Live Chromium desktop (1440px) and mobile (390px) renders reviewed: no horizontal overflow, missing images or uncaught JavaScript errors.
+- Four project pages, privacy, credits and thank-you return successful responses. A nonexistent URL correctly returns the custom 404 page.
+- Security/CSP headers applied; Netlify adds `X-Robots-Tag: noindex` to the preview.
+- Netlify detected `energy-assessment` with all nine fields and honeypot. A clearly labelled QA-only submission at 17:14:52 UTC on 11 October 2026 returned HTTP 200; the connector confirmed submission count increased from 0 to 1. No customer follow-up is required for that test.
 
-1. Enable a preview for this PR on the existing Netlify site, or upload `site/` as a draft deploy through an authorized Netlify session. Keep the published production deploy unchanged.
-2. Confirm preview routing, response headers/CSP, assets and form detection (`energy-assessment`).
-3. Send a clearly labelled test enquiry and verify Netlify storage and delivery to the owner-confirmed recipient. Preview form registration/notifications depend on Netlify settings; mocked tests do not prove delivery.
-4. Check Safari/iOS and a physical Android device; local browser validation used Chromium only.
-5. Complete `CONTENT-REVIEW.md` owner decisions before production.
+## Before production
+
+1. Confirm notification recipient and verify delivery to their inbox; Netlify storage is verified, email notification delivery is not.
+2. Complete `CONTENT-REVIEW.md` owner decisions.
+3. Check Safari/iOS and a physical Android device; browser validation used Chromium.
 
 Do not merge main or publish production without Alex's explicit approval.
