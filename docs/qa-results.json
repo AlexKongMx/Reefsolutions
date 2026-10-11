@@ -1,0 +1,75 @@
+{
+  "report": [
+    {
+      "viewport": "desktop",
+      "dimensions": {
+        "scroll": 1440,
+        "width": 1440,
+        "missing": []
+      },
+      "accessibility": []
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": {
+        "scroll": 820,
+        "width": 820,
+        "missing": []
+      },
+      "accessibility": []
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": {
+        "scroll": 390,
+        "width": 390,
+        "missing": []
+      },
+      "accessibility": []
+    },
+    {
+      "viewport": "small-mobile",
+      "dimensions": {
+        "scroll": 320,
+        "width": 320,
+        "missing": []
+      },
+      "accessibility": []
+    },
+    {
+      "page": "/projects/allianz/",
+      "accessibility": []
+    },
+    {
+      "page": "/projects/datai/",
+      "accessibility": []
+    },
+    {
+      "page": "/projects/commons/",
+      "accessibility": []
+    },
+    {
+      "page": "/projects/earthship/",
+      "accessibility": []
+    },
+    {
+      "page": "/privacy/",
+      "accessibility": []
+    },
+    {
+      "page": "/credits/",
+      "accessibility": []
+    },
+    {
+      "page": "/thank-you/",
+      "accessibility": []
+    },
+    {
+      "page": "/404/",
+      "accessibility": []
+    }
+  ],
+  "errors": [],
+  "form": "Required-field validation, simulated 503 recovery, simulated 200 redirect and encoded payload pass. No live enquiry sent.",
+  "links": "Homepage internal links and anchors pass."
+}
