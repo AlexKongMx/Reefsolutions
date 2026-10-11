@@ -29,3 +29,10 @@
 3. Check Safari/iOS and a physical Android device; browser validation used Chromium.
 
 Do not merge main or publish production without Alex's explicit approval.
+
+## Scan hierarchy and visual rhythm refinement
+
+- Homepage headline now states the benefit, audience and geography. Section headings connect proof, process, delivery options, building systems, project experience, team and assessment.
+- Process diagram introduces a visual pause. Delivery cards are shortened to two clear execution options, with external financing secondary and conditional.
+- One monochrome project-photo treatment; original company-profile Allianz image replaces the unverified prior-site derivative. Native SVG service illustrations replace inconsistent equipment thumbnails.
+- Rechecked Chromium at 1440, 820, 390 and 320px: no overflow or missing images; mobile menu and simulated form recovery/success pass. Automated WCAG A/AA scans still report no violations on the homepage and eight supporting pages. No additional live form submission is needed for these content/layout changes.
