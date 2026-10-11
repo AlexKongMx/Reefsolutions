@@ -14,7 +14,7 @@
 
 ## Live checks still required
 
-The existing Netlify site is `reef-solutions` (`69c17f33-569e-474e-b979-2e23247f7af9`). The last inspected production deploy was manual, with no branch or commit metadata. The currently exposed Netlify connector supports reads/configuration but does not provide a deploy-upload or Git-link operation. A working Deploy Preview has therefore not been verified.
+The existing Netlify site is `reef-solutions` (`69c17f33-569e-474e-b979-2e23247f7af9`). Git integration was confirmed on 11 October 2026: production deploy `6acbbbb44b7e81b348c0fe81` references the unchanged baseline commit `29b718b9ffd101470091cbfd9c7b056975915139` on `main`. PR #1 is ready for review; its redesign branch remains unmerged. Deploy Preview generation and live validation are being checked separately.
 
 1. Enable a preview for this PR on the existing Netlify site, or upload `site/` as a draft deploy through an authorized Netlify session. Keep the published production deploy unchanged.
 2. Confirm preview routing, response headers/CSP, assets and form detection (`energy-assessment`).
