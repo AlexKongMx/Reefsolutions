@@ -1,6 +1,6 @@
 # Asset provenance
 
-Photos are local WebP files. No photographs were generated for this redesign. SVG logos use geometric paths matching the supplied four-part mark.
+Photos are local WebP files. No photographs were generated for this redesign. The baseline SVG logos represent the earlier four-part mark; the new `reef-leaf-*` set replaces it in this identity preview.
 
 | Asset | Source | Use |
 | --- | --- | --- |
@@ -27,3 +27,7 @@ The previous office interior, engineering team, water illustrations, waste facil
 Project images use one CSS monochrome treatment and consistent 4:3 card framing. The hero retains muted natural colour; people remain monochrome. This is presentation styling only, with no generative reconstruction, alteration of buildings or invented site details. Company-profile provenance establishes which project an image accompanies, not an independent chain of ownership; reuse rights and high-resolution originals remain owner checks.
 
 The solar/water service thumbnails were replaced with native SVG technical illustrations, which represent service categories, not installed projects. `building-systems.svg` is an illustrative cooling/lighting/controls diagram, not an energy model, measured drawing or performance chart.
+
+## Leaf identity preview — 13 October 2026
+
+The `reef-leaf-*` assets implement Alex's selected option 05 from the eight-variation leaf/open-frame board. SVG geometry was reconstructed for scalable delivery, using three flat colours: frame #05544E, leaf #2EAA55, vein #98CF50; wordmark #003E42. Wordmark/descriptor paths are outlined Nimbus Sans from URW Base 35 (https://github.com/ArtifexSoftware/urw-base35-fonts); no font download or runtime dependency is added. A compact header version omits the small descriptor on mobile for legibility. New asset names avoid browsers retaining the previous logo from cache. This branch is a brand preview, not approval to publish the replacement identity.
